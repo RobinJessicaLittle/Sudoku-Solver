@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background: rgb(34,2,2);
+    background: linear-gradient(0deg, rgba(34,2,2,1) 0%, rgba(222,41,41,1) 100%);
+        background-size: cover; 
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin:auto;
+    padding: auto;
+    font-family: 'Righteous', cursive;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.instructions{
+    font-size: 20px;
+}
+
+#puzzle{
+    width: 540px;
+    height: 540px;
+    border: 5px solid black
+    /* the width of this by times the width/height of input by 9 */
+}
+
+#puzzle input{
+    width: 60px;
+    height:60px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px rgb(0, 0, 0) solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.odd-section {
+    background-color: rgb(197, 69, 69);
+}
+
+#solve-button{
+    width: 100px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 2px;
+    background-color: rgba(222,41,41,1);
+    border-style:none;
+    border-radius: 3px;
+}
+#solve-button:hover{
+    background-color: rgb(151, 21, 21);
+}
+
+#solve-button:active{
+    width: 90px;
+    font-size: 24px;
+}
+
+#solution{
+    font-size: 30px;
+    color: white;
+
+}
