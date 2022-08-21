@@ -109,7 +109,7 @@ solveButton.addEventListener('click', solve)
 /* to hide my API key i put it in a .env, then refered to it within the function.
 I then installed npm (npm init) to be able to build up the backend so I could get the key to
 work.
-My other intsalls are: npm i axios express cors dotenv nodemon
+My other intsalls are: npm i axios express cors dotenv nodemon gitignore
 
 npm run start:backend in terminal to run the back end after adding-
  "start:backend": "nodemon server.js", too scripts in the back end*/
